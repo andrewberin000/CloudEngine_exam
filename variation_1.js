@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	
-// style	
+// styles
 $('head').append('<style>input {margin: 30px 41px;}.catteg{background-color:#1dc99d;color:#fff;text-transform:uppercase;border-radius:5px;border:none;padding:17px 51px;font-size: 13px;font-weight:bold;margin:30px 41px,font-family: arial;}</style>')
 
 // adding new buttons
@@ -23,6 +23,7 @@ var $lesmillsCateg = $('.catteg').click(function() {
 
       $lesmillsCateg.removeClass('active');
       $(this).addClass('active');
+
     })
 
 });
