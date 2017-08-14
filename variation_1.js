@@ -1,9 +1,7 @@
 $( document ).ready(function() {
     
 // styles
-$('head').append('<style>.catteg:active {position: relative; box-shadow: none; top: 2px; }.section-content.section-content--narrow {font-family: TradeGothic!important; }input {outline: none;margin: 30px 41px;}.catteg{background-color:#1dc99d;color:#fff;text-transform:uppercase;border-radius:5px;border:none;padding:17px 51px;font-size: 13px;font-weight:bold;}</style>')
-
-//mobile view
+$('head').append('<style>p.tabbed-overview__copy {font-family: "HelveticaNeueW01-45Ligh",Arial,helvetica,"sans-serif"!important; }h2.tabbed-overview__title {font-family: Tradegothic!important; }.catteg:active {position: relative; box-shadow: none; top: 2px; }.section-content.section-content--narrow {font-family: TradeGothic!important; }input {outline: none;margin: 30px 41px;}.catteg{background-color:#1dc99d;color:#fff;text-transform:uppercase;border-radius:5px;border:none;padding:17px 51px;font-size: 13px;font-weight:bold;}</style>') //mobile view
 const mq = window.matchMedia( "(max-width: 600px)" );
 if (mq.matches) {
   $('head').append('<style>input {outline: none; margin: 8px 3px!important;width:100%;}.section-content.section-content--narrow p {margin-bottom: 17px; }<style>'); }
