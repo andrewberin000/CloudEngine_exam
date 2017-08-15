@@ -28,5 +28,5 @@ var $lesmillsCateg = $('.catteg').click(function() {
       $(this).addClass('active');
 
     })
-
+ console.log('yeah');
 });
